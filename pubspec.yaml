@@ -1,0 +1,37 @@
+name: agenda
+description: "A new Flutter project."
+publish_to: 'none' # Remove esta linha se você quiser publicar no pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  sqflite: ^2.2.7+1  # Versão atualizada do sqflite
+  path_provider: ^2.1.4 # Versão ajustada para compatibilidade
+  cupertino_icons: ^1.0.6
+  url_launcher: ^6.0.20
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Para adicionar ativos ao seu aplicativo, adicione uma seção de assets, como esta:
+  assets:
+    - images/person.png
+
+  # Para adicionar fontes personalizadas ao seu aplicativo, adicione uma seção de fonts aqui:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
